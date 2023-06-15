@@ -1,0 +1,13 @@
+// Definición de mixin
+@mixin flex-container {
+  display: flex ;
+  flex-direction:row;  
+  justify-content:space-between;
+  align-items:center ;
+  background-color:#f1f1f1;
+}
+  
+  // Uso de mixin
+  .container {
+    @include flex-container;
+  }

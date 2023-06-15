@@ -1,0 +1,93 @@
+// Definir variables para los colores de los archivos que no tenga insertos codigo css directamente en etiquetas html
+
+ $color-primario:rgba(0,0,0,0.7) ;
+ $color-secundario: #eca023 ;
+ $color-terciario: gray;
+ $color-universitario: #fff;
+$fuente-principal:Arial, Helvetica, sans-serif;
+
+@media {
+	(max-width 
+		&: 
+			600px) {
+				body {
+      font-size: 14px;
+			}
+		}
+	}
+
+.container {
+	width: 90%;
+}
+ {
+	.container {
+		width: 50%;
+	}
+}
+header {
+	background: $color-primario;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+}
+nav {
+	float: left;
+	ul {
+		list-style: none;
+		overflow: hidden;
+		li {
+			float: left;
+			font-family: $fuente-principal;
+			font-size: 16px;
+			a {
+				display: block;
+				padding: 10px;
+				color:$color-universitario;
+				text-decoration: none;
+			}
+			&:hover {
+				background: $color-secundario;
+			}
+		}
+	}
+}
+p {
+	font-family: $fuente-principal;
+	font-weight: bold;
+	text-align: justify;
+}
+.button {
+	background-color:$color-terciario ;
+	color: $color-universitario;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	background-color: $color-terciario;
+	color: $color-universitario;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	background-color: color $color-terciario;
+	color: $color-universitario;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+}
+.animation {
+	width: 470px;
+	animation: move 2s infinite;
+}
+@keyframes 
+	move {
+		0% {
+         transform: translateY(0);
+	}
+}
+50% {
+	transform: translateY(200px);
+}
+100% {
+	transform: translateY(0);
+}
+
+

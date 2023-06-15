@@ -1,0 +1,153 @@
+    
+    /* Estilos para pantallas pequeñas */
+@media (max-width: 600px) {
+     body {
+      font-size: 14px;
+    }
+  .container {
+    width: 90%;
+    }
+  }
+   .container {
+      width: 50%;
+    }
+    
+    /* Estilos aplicados al navbar de la pagina principal del proyecto */
+
+   header {
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+  
+  nav {
+    float: left;
+  }
+  
+  nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+  
+  nav ul li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  nav ul li:hover {
+    background: #eca023;
+  }
+
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+  }
+
+    /* Estilos aplicados a los elementos cliquables de tipo boton */
+   .button {
+    background-color: grey;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+   }
+   .button {
+    background-color: grey;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    } 
+    .button {
+    background-color: grey;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    }
+      /* Estilos aplicados para la animacion de la pagina principal */
+
+    .animation {
+      width: 470px ;
+      animation: move 2s infinite;
+    }
+    
+    @keyframes move {
+       0% {
+         transform: translateY(0);
+
+       }
+       50% {
+        transform: translateY(200px);
+       }
+       100% {
+          transform: translateY(0);
+       }
+    }
+    /**estilos aplicados para el archivo de nuestros servicios html**/
+    h1 {
+      color:black ;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: medium;
+    }
+    h2 {
+      color:black ;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: medium;
+    }
+    h3 {
+      color:black ;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: medium;
+    }
+    h4 {
+      color:black ;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: medium;
+    }
+    h5 {
+      color:black ;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: medium;
+    }
+    
+    p {
+      color: gray;
+      font-size: 16px;
+    }
+    
+    /** estilos en flexbox para el archivo de nuestros servicios html**/
+    
+.container 3 pasos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+align-items: center;
+}
+
+ .item {
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+align-items: center;
+}
+
+ .item {
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+}
+  
